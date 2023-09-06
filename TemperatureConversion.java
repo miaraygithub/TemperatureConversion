@@ -11,6 +11,6 @@ public class TemperatureConversion {
         celsiusOut = (fahrenheitIn - 32) * ((double) 5 / 9); //Perform the conversion from C to F, and update the celsiusOut variable
 
         System.out.println("That temperature in Celsius is: " + celsiusOut + " Degrees."); //Output the temp to terminal in C
-        System.out.println("That temperature in Kelvin is: " + (celsiusOut - 273.15) + " Kelvin."); //Output the temp to terminal in K
+        System.out.println("That temperature in Kelvin is: " + (celsiusOut + 273.15) + " Kelvin."); //Output the temp to terminal in K
     }
 }
